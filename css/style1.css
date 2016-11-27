@@ -1,0 +1,22 @@
+
+h1{
+	color: black !important;
+	font-size: 70px;
+	text-align: center;
+
+}
+
+.h2{
+
+	color: black;
+	font-size: 23px;
+	background-color: orange;
+	background-clip: text;
+
+}
+
+
+
+.bg-image{
+	background-image: url("http://spectrumdays.co.uk/wp-content/uploads/2016/03/Volunteering_Hands1170x500.png");
+}
