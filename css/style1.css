@@ -1,22 +1,52 @@
 
-h1{
+.h1{
 	color: black !important;
 	font-size: 70px;
-	text-align: center;
+	
+
 
 }
 
 .h2{
 
-	color: black;
+	color: white;
 	font-size: 23px;
-	background-color: orange;
-	background-clip: text;
+	background-size: 25px 25px;
+
+	
 
 }
 
 
-
 .bg-image{
-	background-image: url("http://spectrumdays.co.uk/wp-content/uploads/2016/03/Volunteering_Hands1170x500.png");
+
+	background-image: url("http://tammiscustomcoating.com/wp-content/uploads/2016/10/powder-paint-1.jpg");
+
+}
+
+.sign_up_bg{
+
+	background-image: url("../powder-paint-1 (1).jpg");
+}
+
+.title{
+
+	color:white;
+
+}
+
+.form-group{
+
+	color:#FAF0E6;
+}
+
+.checkbox{
+
+	color:#FDF5E6;
+
+}
+
+.help-block{
+
+	color: #708090;
 }
