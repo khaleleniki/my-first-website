@@ -9,12 +9,15 @@
 
 .h2{
 
-	color: white;
+	color: #FDF5E6;
 	font-size: 23px;
 	background-size: 25px 25px;
 
-	
+}
 
+.website_background{
+
+	color:black;
 }
 
 
@@ -49,4 +52,11 @@
 .help-block{
 
 	color: #708090;
+
+}
+
+.other{
+
+	color:#696969;
+	font-size:15px;
 }

@@ -17,7 +17,7 @@
 
 	<div class = "container">
 		<div class = "row">
-			<div class = "col-md-12"> 
+			<div class = "col-md-6"> 
 				<div class = "jumbotron sign_up_bg">
 
 
@@ -25,10 +25,75 @@
 					<form>
 
 			<div class="form-group"> <!-- Full Name -->
-				<label for="full_name_id" class="control-label">Full Name</label>
+				<label for="full_name_id" class="control-label">Full Name*</label>
 				<input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="John Deer">
-			</div>	
 
+			</div>
+			
+			<div class="form-group"> <!-- email address -->	
+				<label for="email_address" class="control-label">Email Address*</label>
+				<input type="text" class="form-control" id="email_address" name="email address" placeholder="johndeer@gmail.com">
+
+			</div>
+
+			<div class="form-group"> <!-- password -->	
+				<label for="password" class="control-label">Password*</label>
+				<input type="text" class="form-control" id="password" name="password" placeholder="minimum 6 characters">
+
+			</div>
+
+			<div class="form-group"> <!-- reconfirm password -->	
+				<label for="reconfirm password" class="control-label">Reconfirm Password*</label>
+				<input type="text" class="form-control" id="password" name=" reconfirm password" placeholder="******">
+
+			</div>
+
+			<div class="form-group"> <!--phone number -->
+				<label for="phone_number" class="control-label">Phone Number*</label>
+				<input type="text" class="form-control" id="phone_number" name="phone number" placeholder="+44 #### ### ###">
+
+			</div>
+
+			<div class="form-group"> <!--Level of education -->
+				<label for="Level of education" class="control-label">Highest Level of Education Achieved*</label>
+
+				<select class="form-control" id="level of education">
+
+				<option value="SEL">--select--</option>
+				<option value="Sec">Secondary</option>
+				<option value="CA">College</option>
+				<option value="BSc">Bachelors</option>
+				<option value="Ma">Masters</option>
+				<option value="PhD">PhD</option>
+				<option value="Other">Other (please specify below)</option>
+
+			<div class="form-group other"> <!--other -->
+				<input type="text" class="form-control" id="other" name="Other" placeholder="other*">
+
+				</select>	
+			</div>
+
+			<div class="form-group"> <!-- Current Employment Status -->
+				<label for="street1_id" class="Current Employment Status">Current Employment Status*</label>
+
+				<select class="form-control" id="Current Employment Status">
+
+				<option value="SEL">--select--</option>
+				<option value="S">Student</option>
+				<option value="S">Recent Graduate</option>
+				<option value="EPT">Employed Part Time</option>
+				<option value="EFT">Employed Full Time</option>
+				<option value="R">Retired</option>
+				<option value="U">Unemployed</option>
+				<option value="Other">Other (please specify below)</option>
+
+			<div class="form-group other"> <!--other -->
+				<input type="text" class="form-control" id="other" name="Other" placeholder="other*">
+
+				</select>	
+			</div>				
+			
+		
 			<div class="form-group"> <!-- Street 1 -->
 				<label for="street1_id" class="control-label">Street Address 1</label>
 				<input type="text" class="form-control" id="street1_id" name="street1" placeholder="Street address, P.O. box, company name, c/o">
@@ -36,7 +101,7 @@
 
 							
 			<div class="form-group"> <!-- Street 2 -->
-				<label for="street2_id" class="control-label">Street Address 2 Optional</label>
+				<label for="street2_id" class="control-label">Street Address 2 (optional)</label>
 				<input type="text" class="form-control" id="street2_id" name="street2" placeholder="Apartment, suite, unit, building, floor, etc.">
 			</div>	
 
@@ -87,14 +152,67 @@
 				</select>					
 			</div>
 	
-		<div class="form-group"> <!-- Zip Code-->
-			<label for="zip_id" class="control-label">Postcode</label>
-			<input type="text" class="form-control" id="zip_id" name="zip" placeholder="WC1V 63H">
-		</div>		
+			<div class="form-group"> <!-- Zip Code-->
+				<label for="zip_id" class="control-label">Postcode</label>
+				<input type="text" class="form-control" id="zip_id" name="zip" placeholder="WC1V 63H">
+			</div>
+		
+					</form>		
+		</div>
+			</div>
+
+		<div class = "col-md-6"> 
+			<div class = "jumbotron sign_up_bg">
+
+			<div class="form-group"> <!-- time commitment-->
+				<label for="time_commitment" class="TC"> Time Commitment</label>
+				<select class="form-control" id="time commitment">
+
+			<option value="Sel">--select--</option>
+			<option value="1-7">Once a week</option>
+			<option value="2-7">Twice a week</option>
+			<option value="2-4">Twice a month</option>
+			<option value="1-4">Once a month</option>
+			<option value="3-12">Once every three months</option>
+			<option value="holidays">In the holidays</option>
+			<option value="1-12">Once a year</option>
+			<option value="Other">Other (specify below)</option>
+
+			</div>
+
+			<div class="form-group other"> <!--other -->
+				<label for="other" class="control-label">Other</label>
+				<input type="text" class="form-control" id="other" name="Other" placeholder="other">
+
+				</select>	
+
+			</div>	
+
+			<div class ="form-group"> <!--Skills-->
+				<label for="skills" class="control-label">Skills</label>
+				<textarea class="form-control" rows="3" placeholder="eg. Photoshop, accounting, painting etc."></textarea>
+
+			</div>	
+
+			<div class ="form-group"> <!--Description of interest-->
+				<label for="interests" class="control-label">Interests</label>
+				<textarea class="form-control" rows="3" placeholder="Baking, football, photography etc. "></textarea>
+
+			</div>
+
+			<div class="form-group"> <!--linkedIn profile link-->
+				<label for="LinkedIn Profile" class="control-label">LinkedIn Profile Link</label>
+				<input type="text" class="form-control" placeholder="http://wwww.linkedin.com/profile/">
+			</div>
+
+			
 	
-		<div class="form-group"> <!-- Submit Button -->
-			<button type="submit" class="btn btn-primary">Submit!</button>
-		</div>     
-	
-			</form>		
+			<div class="form-group"> <!-- Submit Button -->
+				<button type="submit" class="btn btn-primary">Submit!</button>
+			</div>   
+
+
+			
+
+
 
